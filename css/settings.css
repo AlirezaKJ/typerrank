@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+}
+body {
+    background: black;
+    color: white;
+}
+a {text-decoration: none;color: inherit;}
+.title {margin: 3vh 0 3vh 0; font-size: 4vw;text-align: center;}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 2vw;
+    margin: 3vh 3vw;
+}
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 0.3vw solid white;
+    border-radius: 10vw;
+}
+.separator:not(:empty)::before {
+    margin-right: .25em;
+}
+.separator:not(:empty)::after {
+    margin-left: .25em;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2vh 6vw;
+    width: 88vw;
+}
+
+.input {
+    display: flex;
+    padding: 1vh 1vw;
+    margin: 2vh 1vw;
+    border: solid 0.3vw white;
+    border-radius: 5vw;
+    align-items: center;
+    font-weight: 600;
+}
+.input .description {
+    font-size: 1.5vw;
+    line-height: 3vw;
+}
+.input input {
+    margin: 0 1vw;
+    text-align: center;
+    font-size: 1.5vw;
+    width: 9vw;
+    height: 3vw;
+    border: none;
+    outline: none;
+    border-radius: 1.5vw;
+}
+
+.togglebtndiv {
+    display: flex;
+    padding: 1vh 1vw;
+    margin: 2vh 1vw;
+    border: solid 0.3vw white;
+    border-radius: 5vw;
+    align-items: center;
+    font-weight: 600;
+}
+.togglebtndiv .name {
+    font-size: 1.5vw;
+    line-height: 3vw;
+}
+.togglebtndiv .status {
+    padding: 1vh 1vw;
+    margin: 0 1vw;
+    background: white;
+    color: black;
+    font-size: 1.5vw;
+    font-weight: 600;
+    transition: 300ms;
+    border: solid 0.3vw white;
+    border-radius: 3vw;
+    display: inline-block;
+}
+.togglebtndiv .onstatus {background: lightgreen;}
+.togglebtndiv .offstatus {background: lightcoral;}
+.togglebtndiv .status:hover {
+    cursor: pointer;
+
+}
+
+.backbtn {
+    text-align: center;
+    line-height: 8vw;
+    font-size: 2vw;
+    font-weight: bold;
+    background: white;
+    color: black;
+    border: solid 0.2vw black;
+    border-radius: 50%;
+    position: fixed;
+    left: 90%;
+    top: 80%;
+    width: 8vw;
+    height: 8vw;
+}

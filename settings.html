@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TR | Settings</title>
+    <link rel="stylesheet" href="css/settings.css">
+    <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+    <h1 class="title">Settings</h1>
+    <div class="separator">Theme</div>    
+    <div class="content">
+        <span onclick="changeTheme('typerrank')" class="btn" id="theme-typerrank">TyperRank</span>
+        <span onclick="changeTheme('monokai')" class="btn" id="theme-monokai">Monokai</span>
+        <span onclick="changeTheme('dracula')" class="btn" id="theme-dracula">Dracula</span>
+        <span onclick="changeTheme('dev')" class="btn" id="theme-dev">Dev</span>
+        <span onclick="changeTheme('onedark')" class="btn" id="theme-onedark">One Dark</span>
+        <span onclick="changeTheme('cafe')" class="btn" id="theme-cafe">Cafe</span>
+        <span onclick="changeTheme('menthol')" class="btn" id="theme-menthol">Menthol</span>
+        <span onclick="changeTheme('honey')" class="btn" id="theme-honey">Honey</span>
+        <span onclick="changeTheme('leather')" class="btn" id="theme-leather">Leather</span>
+        <span onclick="changeTheme('milkshake')" class="btn" id="theme-milkshake">Milkshake</span>
+        <span onclick="changeTheme('matrix')" class="btn" id="theme-matrix">Matrix</span>
+        <span onclick="changeTheme('copper')" class="btn" id="theme-copper">Copper</span>
+        <span onclick="changeTheme('vscode')" class="btn" id="theme-vscode">VSCode</span>
+        <span onclick="changeTheme('terminal')" class="btn" id="theme-terminal">Terminal</span>
+        <span onclick="changeTheme('reddragon')" class="btn" id="theme-reddragon">Red Dragon</span>
+        <span onclick="changeTheme('metaverse')" class="btn" id="theme-metaverse">Meta Verse</span>
+        <span onclick="changeTheme('comfy')" class="btn" id="theme-comfy">Comfy</span>
+        <span onclick="changeTheme('sonokai')" class="btn" id="theme-sonokai">Sonokai</span>
+        <span onclick="changeTheme('pulse')" class="btn" id="theme-pulse">Pulse</span>
+        <span onclick="changeTheme('luna')" class="btn" id="theme-luna">Luna</span>
+        <span onclick="changeTheme('carbon')" class="btn" id="theme-carbon">Carbon</span>
+        <span onclick="changeTheme('alpine')" class="btn" id="theme-alpine">Alpine</span>
+        <span onclick="changeTheme('joker')" class="btn" id="theme-joker">Joker</span>
+        <span onclick="changeTheme('frozenllama')" class="btn" id="theme-frozenllama">Frozen Llama</span>
+        <span onclick="changeTheme('retro')" class="btn" id="theme-retro">Retro</span>
+        <span onclick="changeTheme('sweden')" class="btn" id="theme-sweden">Sweden</span>
+        <span onclick="changeTheme('metropolis')" class="btn" id="theme-metropolis">Metro Polis</span>
+        <span onclick="changeTheme('ezmode')" class="btn" id="theme-ezmode">EZMode</span>
+        <span onclick="changeTheme('mint')" class="btn" id="theme-mint">Mint</span>
+        <span onclick="changeTheme('nebula')" class="btn" id="theme-nebula">Nebula</span>
+    </div>
+
+    <div class="separator">Caret</div>    
+    <!-- <div class="content">
+        <span class="btn">Line</span>
+        <span class="btn">Block</span>
+        <span class="btn">UnderLine</span>
+    </div> -->
+    <div class="content">
+        <div class="input">
+            <span class="description">Caret Animation</span><input oninput="changeCaretAnimation()" id="caretanimationinput" placeholder="300" type="text">
+        </div>
+    </div>
+    <div class="content">
+        <div class="togglebtndiv">
+            <span class="name">Blinking</span>
+            <span onclick="changeCaretBlinkStatus()" class="status" id="blinkingbtn"></span>
+        </div>
+    </div>
+    
+
+    <a href="index.html"><div class="backbtn">
+        Home
+    </div></a>
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <script src="js/xp.js"></script>
+    <script src="js/themes.js"></script>
+    <script src="js/settings.js"></script>
+</body>
+</html>

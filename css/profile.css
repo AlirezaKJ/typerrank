@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background: black;
+    color: white;
+}
+@property --pgPercentage {
+    syntax: '<number>';
+    inherits: false;
+    initial-value: 0;
+}
+
+.rank {
+    display: flex;
+    top: 0;
+    left: 0;
+    height: 30vh;
+    background: red;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#levelcircle {
+    --size: 20vh;
+    --fg: #5BBBCC;
+    --bg: #272822;
+    --pgPercentage: var(--value);
+    animation: growProgressBar 3s 1 forwards;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    border: solid 0.3vw white;
+    display: grid;
+    place-items: center;
+    background: 
+      radial-gradient(closest-side, #272822 80%, transparent 0 99.9%, white 0),
+      conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0)
+      ;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: calc(var(--size) / 5);
+    color: var(--fg);
+}
+  
+#levelcircle::before {
+    counter-reset: percentage var(--value);
+    content: counter(percentage) ;
+}
+
+.backbtn {
+    text-align: center;
+    line-height: 8vw;
+    font-size: 2vw;
+    font-weight: bold;
+    background: white;
+    color: black;
+    border: solid 0.2vw black;
+    border-radius: 50%;
+    position: fixed;
+    left: 90%;
+    top: 80%;
+    width: 8vw;
+    height: 8vw;
+}
+
+@keyframes growProgressBar {
+    0%, 33% { --pgPercentage: 0; }
+    100% { --pgPercentage: var(--value); }
+}

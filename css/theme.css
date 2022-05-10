@@ -1,0 +1,257 @@
+.btn {
+    display: inline-block;
+    padding: 1vh 2vw;
+    width: 8vw;
+    margin: 2vh 1vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+    text-align: center;
+    border: solid 0.3vw;
+    border-radius: 5vw;
+    white-space: nowrap;
+    transition: 300ms;
+}
+.btn:hover {
+    transform: scale(1.1);
+}
+
+#theme-typerrank {
+    background: #DEE2E6;
+    color: #000000;
+    border-color: #6C757D;
+}
+#theme-typerrank:hover {
+    border-color: #FFFFFF;
+}
+#theme-monokai {
+    background: #272822;
+    color: #E2E2DC;
+    border-color: #5BBBCC;
+}
+#theme-monokai:hover {
+    border-color: #8C80FF;
+}
+#theme-dracula {
+    background: #282A36;
+    color: #BD93F9;
+    border-color: #ECEDED;
+}
+#theme-dracula:hover {
+    border-color: #8BE9FD;
+}
+#theme-dev {
+    background: #1B2028;
+    color: #C8C8B2;
+    border-color: #47546E;
+}
+#theme-dev:hover {
+    border-color: #229EC8;
+}
+#theme-onedark {
+    background: #2F343F;
+    color: #97C279;
+    border-color: #61AFEF;
+}
+#theme-onedark:hover {
+    border-color: #E06C75;
+}
+#theme-cafe {
+    background: #CEB18D;
+    color: #D4D2D1;
+    border-color: #24201A;
+}
+#theme-cafe:hover {
+    border-color: #24201A;
+}
+#theme-menthol {
+    background: #00C18C;
+    color: #186544;
+    border-color: #98FDD7;
+}
+#theme-menthol:hover {
+    border-color: #98FDD7;
+}
+#theme-honey {
+    background: #F2AA00;
+    color: #F3ECC5;
+    border-color: #795200;
+}
+#theme-honey:hover {
+    border-color: #FFF546;
+}
+#theme-leather {
+    background: #A86948;
+    color: #FFE4BC;
+    border-color: #EF6D49;
+}
+#theme-leather:hover {
+    border-color: #844A2E;
+}
+#theme-milkshake {
+    background: #FFFFFF;
+    color: #3C455A;
+    border-color: #212B43;
+}
+#theme-milkshake:hover {
+    border-color: #62CFE6;
+}
+#theme-matrix {
+    background: #000000;
+    color: #ADFFA7;
+    border-color: #15FF00;
+}
+#theme-matrix:hover {
+    border-color: #003000;
+}
+#theme-copper {
+    background: #442F29;
+    color: #E7E0DE;
+    border-color: #C25C42;
+}
+#theme-copper:hover {
+    border-color: #7EBAB5;
+}
+#theme-vscode {
+    background: #1E1E1E;
+    color: #CACACA;
+    border-color: #569CD6;
+}
+#theme-vscode:hover {
+    border-color: #0276C4;
+}
+#theme-terminal {
+    background: #191A1B;
+    color: #E7EAE0;
+    border-color: #79A617;
+}
+#theme-terminal:hover {
+    border-color: #48494B;
+}
+#theme-reddragon {
+    background: #1A0B0C;
+    color: #48494A;
+    border-color: #FF3A32;
+}
+#theme-reddragon:hover {
+    border-color: #E2A528;
+}
+#theme-metaverse {
+    background: #232323;
+    color: #E8E8E8;
+    border-color: #D82934;
+}
+#theme-metaverse:hover {
+    border-color: #5E5E5E;
+}
+#theme-comfy {
+    background: #4A5B6E;
+    color: #F5EFEE;
+    border-color: #9EC1CC;
+}
+#theme-comfy:hover {
+    border-color: #EFC7C2;
+}
+#theme-sonokai {
+    background: #2C2E34;
+    color: #E2E2E3;
+    border-color: #F38C71;
+}
+#theme-sonokai:hover {
+    border-color: #9ED072;
+}
+#theme-pulse {
+    background: #181818;
+    color: #E5F4F4;
+    border-color: #17B8BD;
+}
+#theme-pulse:hover {
+    border-color: #53565A;
+}
+#theme-luna {
+    background: #221C35;
+    color: #F6DBE4;
+    border-color: #F67599;
+}
+#theme-luna:hover {
+    border-color: #5A3A7E;
+}
+#theme-carbon {
+    background: #313131;
+    color: #E0D3B8;
+    border-color: #F66E0D;
+}
+#theme-carbon:hover {
+    border-color: #616161;
+}
+#theme-alpine {
+    background: #6C687F;
+    color: #F6F6F7;
+    border-color: #585568;
+}
+#theme-alpine:hover {
+    border-color: #9994B8;
+}
+#theme-joker {
+    background: #1A0E25;
+    color: #E5DEF2;
+    border-color: #99DE1E;
+}
+#theme-joker:hover {
+    border-color: #7554A3;
+}
+#theme-frozenllama {
+    background: #9BF2EA;
+    color: #FDFFFF;
+    border-color: #6D44A6;
+}
+#theme-frozenllama:hover {
+    border-color: #B497FB;
+}
+#theme-retro {
+    background: #DAD3C1;
+    color: #918B7D;
+    border-color: #1D1B17;
+}
+#theme-retro:hover {
+    border-color: #1D1B17;
+}
+#theme-sweden {
+    background: #0058A3;
+    color: #EDF3F9;
+    border-color: #FFCC02;
+}
+#theme-sweden:hover {
+    border-color: #FFCC02;
+}
+#theme-metropolis {
+    background: #0F1F2C;
+    color: #E4EDF1;
+    border-color: #56C3B7;
+}
+#theme-metropolis:hover {
+    border-color: #326984;
+}
+#theme-ezmode {
+    background: #0068C6;
+    color: #FA62D5;
+    border-color: #4DDB47;
+}
+#theme-ezmode:hover {
+    border-color: #F0F2F4;
+}
+#theme-mint {
+    background: #05385B;
+    color: #EDF5E1;
+    border-color: #5CDB95;
+}
+#theme-mint:hover {
+    border-color: #20688A;
+}
+#theme-nebula {
+    background: #212135;
+    color: #BE3C88;
+    border-color: #78C729;
+}
+#theme-nebula:hover {
+    border-color: #19B3B8;
+}

@@ -1,0 +1,24 @@
+.statpanel {
+    position: fixed;
+    top: 80%;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    border-top: solid 1px;
+    background: black;
+}
+.statdisplay {
+    transition: 300ms;
+    filter: opacity(0%);
+}
+
+.bar {
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 3vh 2vw;
+    margin: 4vh 1vw;
+    border-radius: 1.5vw;
+    font-size: 2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

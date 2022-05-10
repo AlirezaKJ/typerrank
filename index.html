@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+    <title>TR | Home</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/stats.css">
+    <link rel="stylesheet" href="css/user.css">
+</head>
+<body onload="applySetting()">
+    <div class="userpanel">
+        <div class="level">
+            <span id="levelnum"></span>
+        </div>
+        <!-- <div class="xpbar">
+            <span id="xpbar"></span>
+        </div> -->
+        <div class="divider"></div>
+        <nav>
+            <a href="settings.html"><div class="navbtn">
+                <span>Settings</span>
+            </div></a>
+            <!-- <a href="profile.html"><div class="navbtn">
+                <span>Profile</span>
+            </div></a> -->
+            <!-- <a href="discovery.html"><div class="navbtn">
+                <span>Discovery</span>
+            </div></a> -->
+            
+        </nav>
+    </div>
+
+    <main>
+        <div class="cursor" id="caret"></div>
+        <div class="texts">
+            <span id="texts"></span>
+        </div>
+        <a href="#" onclick="reroll()" id="reset">ReRoll</a>
+    </main>
+
+    <div class="statpanel">
+        <div class="statdisplay" id="statstab">
+            <div class="bar">
+                <span class="name">WPM:</span>
+                <span class="value" id="wpm"></span>
+            </div>
+            <div class="bar">
+                <span class="name">Time:</span>
+                <span class="value" id="time"></span>
+            </div>
+            <div class="bar">
+                <span class="name">XP:</span>
+                <span class="value" id="xp"></span>
+            </div>
+            <div class="bar">
+                <span class="name">Misses:</span>
+                <span class="value" id="miss"></span>
+            </div>
+            <div class="bar">
+                <span class="name">Accuracy:</span>
+                <span class="value" id="accuracy"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/wordBank.js"></script>
+    <script src="js/xp.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/keys.js"></script>
+    <script src="js/themes.js"></script>
+    <script src="js/applySetting.js"></script>
+    <script src="js/stats.js"></script>
+</body>
+</html>

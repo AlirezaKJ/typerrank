@@ -1,0 +1,96 @@
+:root {
+    --main: #000000;
+    --second: #DEE2E6;
+    --third: #6C757D;
+    --alt: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    position: fixed;
+    top: 20%;
+    width: 100%;
+    height: 60%;
+    background: var(--second);
+}
+.cursor {
+    position: absolute;
+    width: 0.2%;
+    height: 30%;
+    left: 49.9%;
+    top: 35%;
+    border-radius: 50px;
+    background: var(--third);
+}
+.texts {
+    position: absolute;
+    height: 100%;
+    line-height: 60vh;
+    width: 100%;
+    left: 50%;
+}
+#texts {
+    height: 100%;
+    display: inline-block;
+    font-size: 40px;
+    color: var(--main);
+    font-family: monospace;
+    transition: 80ms;
+    white-space: nowrap;
+}
+#reset {
+    position: fixed;
+    background: var(--main);
+    border: solid var(--alt) 2px;
+    outline: none;
+    border-radius: 20px;
+    color: var(--alt);
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 10vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 65%;
+    left: 43%;
+    height: 10vh;
+    width: 14vw;
+    transition: 300ms;
+    visibility: hidden;
+    filter: opacity(0%);
+}
+#reset:focus {
+    outline: none;
+    background: var(--alt);
+    color: var(--main);
+    cursor: pointer;
+    border-color: var(--main);
+    transform: scale(1.1);
+}
+#reset:hover {
+    outline: none;
+    background: var(--alt);
+    color: var(--main);
+    border-color: var(--main);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.blinking {
+    animation: blinker 1200ms linear infinite;
+}
+  
+@keyframes blinker {
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}

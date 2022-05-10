@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.level {
+    display: block;
+    margin: 5vh 20vw;
+    background: white;
+    color: black;
+    width: 60%;
+    text-align: center;
+}
+.level .title {
+    font-size: 35px;
+    display: inline-block;
+    margin: 2vh 0vw;
+}
+.level .infos {
+    padding: 0 0 6vh 0;
+}
